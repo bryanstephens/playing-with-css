@@ -1,0 +1,23 @@
+div {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: 
+              radial-gradient(125px at 125px 276px, red 99%, transparent 100%),
+              radial-gradient(125px at 276px 130px, red 99%, transparent 100%),
+              radial-gradient(30px at 250px 250px, red 99%, transparent 100%),
+              linear-gradient(-45deg, red 35%, transparent 35%)
+              ;
+  transform: rotate(45deg);
+
+
+  text-align: right;
+  line-height: 580px;
+  vertical-align: bottom;
+  font-size: 40px;
+  color: white;
+}
