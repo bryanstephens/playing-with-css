@@ -1,4 +1,8 @@
-div {
+div.canvas {
+  width: 100%;
+  height: 500px;
+}
+div#glenda-love {
   width: 400px;
   height: 400px;
   margin: auto;
@@ -6,8 +10,7 @@ div {
   bottom: 0;
   left: 0;
   right: 0;
-  background: 
-              radial-gradient(125px at 125px 276px, red 99%, transparent 100%),
+  background: radial-gradient(125px at 125px 276px, red 99%, transparent 100%),
               radial-gradient(125px at 276px 130px, red 99%, transparent 100%),
               radial-gradient(30px at 250px 250px, red 99%, transparent 100%),
               linear-gradient(-45deg, red 35%, transparent 35%)
@@ -20,4 +23,35 @@ div {
   vertical-align: bottom;
   font-size: 40px;
   color: white;
+}
+
+div#archery-target {
+  width: 10px;
+  height: 10px;
+  margin: auto;
+  margin-top: 200px;
+  background: yellow;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px silver,
+              0 0 0 10px yellow,
+              0 0 0 11px black,
+              0 0 0 31px yellow,
+              0 0 0 32px black,
+              0 0 0 52px red,
+              0 0 0 53px black,
+              0 0 0 73px red,
+              0 0 0 74px black,
+              0 0 0 94px blue,
+              0 0 0 95px black,
+              0 0 0 115px blue,
+              0 0 0 116px black,
+              0 0 0 136px black,
+              0 0 0 137px white,
+              0 0 0 157px black,
+              0 0 0 158px black,
+              0 0 0 178px white,
+              0 0 0 179px black,
+              0 0 0 199px white,
+              0 0 0 200px black
+              ;
 }
